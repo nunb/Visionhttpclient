@@ -1,0 +1,10 @@
+<eventRule name="Event Rule" description="Rule Description" disabled="true" active="false">
+  <trigger type="dwellAbsence" subtype="absence" minutes="5">
+    <subjectSpecification type="all"/>
+    <areaSpecification type="selectedZones" selectedIDs="14"/>
+  </trigger>
+  <action type="composite">
+	<action type="tagMessage" message="hahah rule" instant="false">
+	<target type="originatorTag"/> </action> 	
+  </action>
+</eventRule>

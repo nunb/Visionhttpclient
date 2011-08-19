@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults>
+
+<sampleResult responseMessage="Forbidden" responseCode="403" dataType="text" time="110" timeStamp="1301311610825" threadName="Thread Group-1" label="HTTP Request" success="false"/><httpSample t="77" lt="77" ts="1301315904628" s="false" lb="HTTP Request" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="72"/>
+
+<httpSample t="52" lt="52" ts="1301316030706" s="false" lb="HTTP Request" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="72"/>
+
+<httpSample t="3043" lt="3043" ts="1301316048296" s="false" lb="HTTP Request" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" by="72"/>
+
+<httpSample t="115" lt="115" ts="1301316094831" s="false" lb="HTTP Request" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="12"/>
+
+<httpSample t="12" lt="11" ts="1301316168898" s="false" lb="HTTP Request" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="12"/>
+
+<httpSample t="8" lt="8" ts="1301316181680" s="false" lb="HTTP Request" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" by="12"/>
+
+</testResults>

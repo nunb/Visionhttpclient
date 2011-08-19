@@ -1,0 +1,10 @@
+<eventRule name="alert28april" description="Description" disabled="false" active="false"> 
+<trigger type="button" buttons="button1"> <subjectSpecification type="all"/> 
+<areaSpecification type="all"/> 
+</trigger> 
+<action type="composite"> 
+<action type="alert" title="button 1 alert rule" closeButtonLabel="OK" acceptButtonLabel="null" declineButtonLabel="null"> 
+<target type="allUsers"/> 
+</action> 
+</action> 
+</eventRule>

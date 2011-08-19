@@ -1,0 +1,41 @@
+<asset assetTypeId="4da5a6750986643f84fab6dc"> <property id="4da5a6750986643f84fab6dc,4da5a6830986643f84fab6dd,4da5a6830986643f84fab6de" value="A1"/> </asset>
+
+
+Referer: http://localhost:8585/Vision.swf/[[DYNAMIC]]/6 
+Content-type: application/xml 
+Content-length: 160 
+
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+================================================
+Post Search
+http://localhost:8585/tags/search
+Referer: http://localhost:8585/Vision.swf/[[DYNAMIC]]/6 
+Content-type: application/xml 
+Content-length: 22 
+
+
+<search text="ats-5"/>
+
+
+
+
+Post tag 
+http://localhost:8585/assets/id/tag
+
+header
+Referer: http://localhost:8585/Vision.swf/[[DYNAMIC]]/6 
+Content-type: application/xml 
+Content-length: 29 
+
+<tag _method="PUT" id="521"/>
+
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+
+POST Event
+
+Referer: http://localhost:8585/Vision.swf/[[DYNAMIC]]/6 
+Content-type: application/xml Content-length: 438 
+
+<eventRule name="Button Rule" description="Description" disabled="false" active="false"> <trigger type="button" buttons="button1"> <subjectSpecification type="all"/> <areaSpecification type="all"/> </trigger> <action type="composite"> <action type="alert" title="Alert Title" closeButtonLabel="OK" acceptButtonLabel="null" declineButtonLabel="null"> <target type="allUsers"/> </action> </action> </eventRule>

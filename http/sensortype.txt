@@ -1,0 +1,8 @@
+<assetType name="shouldwork">
+  <sensor type="singleProbeTemperature">
+    <limits type="temperature" lowName="brrrr..." highName="wtf"/>
+  </sensor>
+  <propertyGroup name="Id">
+    <property label="Name" type="text"/>
+  </propertyGroup>
+</assetType>

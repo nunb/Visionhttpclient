@@ -1,0 +1,1 @@
+<asset assetTypeId="4e451b1e38fa582c9c6654cc"><property id="4e451b1e38fa582c9c6654cc,4e451b1e38fa582c9c6654cd,4e451b1e38fa582c9c6654ce" value="House"/></asset>

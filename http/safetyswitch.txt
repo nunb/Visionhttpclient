@@ -1,0 +1,8 @@
+<eventRule name="emailrule28april" description="Description" disabled="false" active="false"> 
+<trigger type="safetySwitch" cancelByClosing="false"> <subjectSpecification type="all"/> 
+<areaSpecification type="all"/> 
+</trigger> <action type="composite"> 
+<action type="email" messageSubject="this is the subject" messageText="this is the text" doNotFormat="false"> <recipients/> 
+</action> 
+</action> 
+</eventRule>

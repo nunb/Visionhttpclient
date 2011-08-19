@@ -1,0 +1,9 @@
+<eventRule name="Par Level Rule" description="Description" disabled="false" active="true">
+  <trigger type="parLevel" lowLimit="1" highLimit="1" zoneId="14">
+    <subjectSpecification type="all"/>
+  </trigger>
+  <action type="composite">
+	<action type="tagMessage" message="par level rule" instant="true"> 
+	<target type="originatorTag"/> </action> 
+  </action>
+</eventRule>

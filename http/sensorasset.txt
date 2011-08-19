@@ -1,0 +1,4 @@
+<asset assetTypeId="4e3b9082a4ace05218ed7307">
+  <property id="4e3b9082a4ace05218ed7307,4e3b9082a4ace05218ed7308,4e3b9082a4ace05218ed7309" value="newsensorASS"/>
+  <limits type="temperature" low="10" lowName="Low" high="27" highName="High"/>
+</asset>

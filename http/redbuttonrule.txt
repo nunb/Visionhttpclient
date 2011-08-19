@@ -1,0 +1,10 @@
+<eventRule name="red test rule" description="Description" disabled="false" active="false"> 
+<trigger type="button" buttons="button1"> <subjectSpecification type="all"/> 
+<areaSpecification type="all"/> 
+</trigger>
+  <action type="composite">
+    <action type="alert" title="red button rule" closeButtonLabel="OK" acceptButtonLabel="null" declineButtonLabel="null">
+      <target type="allUsers"/>
+    </action>
+  </action>
+</eventRule>

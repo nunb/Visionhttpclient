@@ -1,0 +1,11 @@
+<eventRule name="Area Rule" description="Description" disabled="false" active="true" uri="eventRules/4e12f4b11776ad2a7075c05e">
+  <trigger type="area" subtype="exit">
+    <subjectSpecification type="all"/>
+    <areaSpecification type="selectedZones" selectedIDs="14"/>
+  </trigger>
+  <action type="composite">
+    <action type="tagMessage" message="exiting vijay!" instant="true">
+      <target type="originatorTag"/>
+    </action>
+  </action>
+</eventRule>

@@ -1,0 +1,9 @@
+<eventRule name="newget28april" description="Description" disabled="false" active="false"> 
+<trigger type="button" buttons="button1"> <subjectSpecification type="all"/> 
+<areaSpecification type="all"/> 
+</trigger>
+<action type="composite">
+<action type="httpget" url="http://www.google.com"> 
+</action> 
+</action> 
+</eventRule>

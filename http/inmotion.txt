@@ -1,0 +1,11 @@
+<eventRule name="Motion Rule" description="Description" disabled="false" active="true" uri="eventRules/4dbfd91b8d2e5ca5e19863a7">
+  <trigger type="motion" motionType="inMotion">
+    <subjectSpecification type="all"/>
+    <areaSpecification type="all"/>
+  </trigger>
+  <action type="composite">
+    <action type="tagMessage" message="in motion!!" instant="true">
+      <target type="originatorTag"/>
+    </action>
+  </action>
+</eventRule>

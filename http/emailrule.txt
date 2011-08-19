@@ -1,0 +1,13 @@
+<eventRule name="red button -> email" description="Rule Description" disabled="false" active="false">
+  <trigger type="button" buttons="button1">
+    <subjectSpecification type="all"/>
+    <areaSpecification type="all"/>
+  </trigger>
+  <action type="composite">
+    <action type="email" messageSubject="hello " messageText="there" doNotFormat="false">
+      <recipients>
+        <value>pranav.modi@gmail.com</value>
+      </recipients>
+    </action>
+  </action>
+</eventRule>

@@ -1,0 +1,12 @@
+<eventRule name="redmultiaction" description="Rule Description" disabled="false" active="false">
+  <trigger type="button" buttons="button1">
+    <subjectSpecification type="all"/>
+    <areaSpecification type="all"/>
+  </trigger>
+  <action type="composite">
+	<action type="http" method="POST" url="http://www.google.com" postdata="null"/>
+    <action type="alert" title="red alert!" closeButtonLabel="OK" acceptButtonLabel="null" declineButtonLabel="null">
+      <target type="allUsers"/>
+    </action>
+  </action>
+</eventRule>

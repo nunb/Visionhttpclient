@@ -1,0 +1,10 @@
+{"tagMessage":{
+    "assetIds": "4de385b08d2e1f3607f1ca0d",
+    "tagType": "t301bd",
+    "message" : { "text" : "savage chickens" , "isInstant" : "false"  }
+    "page": {
+        "type": "audible",
+        "duration": "20",
+        "priority": "low"
+    }
+}}

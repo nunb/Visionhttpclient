@@ -1,0 +1,10 @@
+<eventRule name="sensor rule" description="Rule Description" disabled="false" active="true">
+  <trigger type="telemetry" useDelay="false" minutes="1">
+    <subjectSpecification type="all"/>
+  </trigger>
+  <action type="composite">
+    <action type="tagMessage" message="jitu!!" instant="false">
+      <target type="assetsTag" ids="4e3b91bea4ace05218ed730f" excludeOriginatorTag="false"/>
+    </action>
+  </action>
+</eventRule>

@@ -1,0 +1,3 @@
+<asset id="4d487db33b4a313bc485315f">
+  <property id="Asset,0,0" value="Puppaa 2"/> 
+ </asset>

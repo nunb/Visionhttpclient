@@ -1,0 +1,5 @@
+<action type="email" messageSubject="the subject" messageText="the body" doNotFormat="false">
+  <recipients>
+    <value>pranav.modi@gatewaytechnolabs.com</value>
+  </recipients>
+</action>

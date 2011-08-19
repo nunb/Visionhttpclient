@@ -1,0 +1,10 @@
+<eventRule name="testingmotionrule" description="Description" disabled="false" active="false"> 
+<trigger type="motion" motionType="notMoved"> 
+<subjectSpecification type="all"/> 
+<areaSpecification type="all"/> 
+</trigger> <action type="composite"> 
+<action type="alert" title="Alert Title" closeButtonLabel="OK" acceptButtonLabel="null" declineButtonLabel="null"> 
+<target type="allUsers"/> 
+</action> 
+</action> 
+</eventRule>
