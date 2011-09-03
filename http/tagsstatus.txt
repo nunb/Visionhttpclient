@@ -1,0 +1,10 @@
+<eventRule id="tagStatus" name="Tags Status Rule" description="When tags dont respond" version="0" active="true" disabled="false">
+<trigger type="tagsStatus" minutes="2">
+	<subjectSpecification type="all"/>
+</trigger>
+	<action type="composite">
+		<action type="alert" title="tag status rule!!!!!!!!!!!!!!!!" closeButtonLabel="OK" acceptButtonLabel="null" declineButtonLabel="null">
+		  <target type="allUsers"/>
+		</action>
+	</action>
+</eventRule>
